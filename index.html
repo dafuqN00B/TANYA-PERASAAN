@@ -1,0 +1,80 @@
+ <html>
+<head>
+<title> PERTANYAAN </title>
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Thanks udah pilih jawabanya ya :)")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=550
+            Bn.style.left=450
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=450
+            Bn.style.left=600
+            flag=3
+         }          
+         else if(flag==3)
+        {
+            Bn.style.top=910
+            Bn.style.left=470
+            flag=4
+        }       
+         else if(flag==4)
+        {
+            Bn.style.top=850
+            Bn.style.left=550
+            flag=5
+        }
+    else if(flag==5)
+        {
+            Bn.style.top=370
+            Bn.style.left=510
+            flag=1
+        }
+}
+</script>
+<style>
+h1 {
+	color: #dc3545;
+	font-family: arial;
+	}
+body {
+	background-color: #000000;
+}
+	.button{
+	left:420px; 
+	top:370px; 
+	width:150px;
+    height:50px;
+	background-color: #dc3545;
+	border-radius: 10px;
+	border :0 solid black;
+	color: ;
+	font-size: 20px;
+	font-family: monospace;
+	}
+	.button:hover{
+		background-color: #dc3545;
+	}
+</style>
+</head>
+<body>
+<center> <h1> Hallo Cewe.. <h1> </center>
+<center> <img alt="EvilicaCell" src="https://www.pngkin.com/mnp/65-652434.png" height="200" /> </center>
+<center> <h1 style="#">Lu sayang gak sama gue?</h1> </center>
+<div id="By" style="position:absolute; left:330px; top:370px; width:210px; height:210px;">
+<button id="By" class="button" onClick="f1()"> Ya </button>
+</div>
+<div id="Bn" style="position:absolute; left:510px; top:370px; width:210px; height:210px;">
+<button class="button" onMouseOver="f()"> Tidak </button>
+</div>
+</body>
+</html>
